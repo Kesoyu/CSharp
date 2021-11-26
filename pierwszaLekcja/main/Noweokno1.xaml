@@ -5,8 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:main"
         mc:Ignorable="d"
-        Title="Noweokno1" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="Wiazanie Danych"
+        Height="450"
+        Width="800">
+    <StackPanel>
+        <Slider x:Name="rozmiarTekstu" Minimum="16" Maximum="48" ValueChanged="rozmiarTekstu_ValueChanged">
+        </Slider>
+        <TextBlock>
+            <TextBlock.Text>
+                <Binding Path="Text.Length" ElementName="Tekscior">
+                    <Binding.StringFormat>
+                        {0} znaków
+                    </Binding.StringFormat>
+                </Binding>
+            </TextBlock.Text>
+        </TextBlock>
+        <TextBlock x:Name="Tekscior" FontSize="{Binding Value, ElementName=rozmiarTekstu}" Foreground="{Binding Path=SelectedItem.Content, ElementName=Kolor}" Text="{Binding Path=Text, ElementName = zmianaTXT}">
+        </TextBlock>
+        <ComboBox Width="120" SelectedIndex="0" x:Name="Kolor">
+            <ComboBoxItem Content="Red" Background="Red"></ComboBoxItem>
+            <ComboBoxItem Content="Blue" Background="Blue"></ComboBoxItem>
+            <ComboBoxItem Content="Yellow" Background="Yellow"></ComboBoxItem>
+            <ComboBoxItem Content="Purple" Background="Purple"></ComboBoxItem>
+            <ComboBoxItem Content="Black" Background="Black"></ComboBoxItem>
+        </ComboBox>
+        <TextBox x:Name="zmianaTXT">
+            
+        </TextBox>
+    </StackPanel>
 </Window>

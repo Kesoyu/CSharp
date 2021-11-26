@@ -23,5 +23,10 @@ namespace main
         {
             InitializeComponent();
         }
+
+        private void rozmiarTekstu_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            //int value = rozmiarTekstu.GetValue();
+        }
     }
 }
