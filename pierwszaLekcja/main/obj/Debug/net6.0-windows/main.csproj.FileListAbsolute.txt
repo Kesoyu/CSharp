@@ -21,3 +21,5 @@ C:\Users\Uczen\Desktop\KesoyuGit\CSharp\pierwszaLekcja\main\obj\Debug\net6.0-win
 C:\Users\Uczen\Desktop\KesoyuGit\CSharp\pierwszaLekcja\main\obj\Debug\net6.0-windows\main.genruntimeconfig.cache
 C:\Users\Uczen\Desktop\KesoyuGit\CSharp\pierwszaLekcja\main\obj\Debug\net6.0-windows\Noweokno1.g.cs
 C:\Users\Uczen\Desktop\KesoyuGit\CSharp\pierwszaLekcja\main\obj\Debug\net6.0-windows\Noweokno1.baml
+C:\Users\Uczen\Desktop\KesoyuGit\CSharp\pierwszaLekcja\main\obj\Debug\net6.0-windows\uklady.g.cs
+C:\Users\Uczen\Desktop\KesoyuGit\CSharp\pierwszaLekcja\main\obj\Debug\net6.0-windows\uklady.baml
