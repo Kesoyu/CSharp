@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:main"
              StartupUri="MainWindow.xaml">
+             <!--OdStartupUri zaczynamy wyswietlanie pierwszego okna-->
     <Application.Resources>
          
     </Application.Resources>

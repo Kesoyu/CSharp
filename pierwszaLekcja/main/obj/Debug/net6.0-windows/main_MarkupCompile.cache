@@ -1,5 +1,5 @@
 ﻿main
-1.0.0.0
+
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Uczen\Desktop\KesoyuGit\CSharp\pierwszaLekcja\main\App.xaml
 2-1483277466
 
-6-2111521529
+4-881767683
 194-164764702
 MainWindow.xaml;Noweokno1.xaml;
 
-True
+False
 

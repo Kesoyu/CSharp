@@ -5,8 +5,36 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:main"
         mc:Ignorable="d"
+        x:Name="Win"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition>
+                
+            </ColumnDefinition>
+            <ColumnDefinition>
+                
+            </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Button Grid.Column="0" 
+                Content="czas"
+                Background="BlueViolet" 
+                Height="170px"
+                FontSize="30"
+                Width="300"
+                Name="btn_czas"
+                Foreground="AliceBlue" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave">
+        </Button>
+        <Button Grid.Column="1" 
+                Content="napis" 
+                FontSize="40"
+                Padding="20px"
+                Margin="70 130 70 130"
+                Background="PaleVioletRed"
+                Foreground="FloralWhite"
+                Name="btn_napis"
+                Click="Button_Click">
+                
+        </Button>
     </Grid>
 </Window>

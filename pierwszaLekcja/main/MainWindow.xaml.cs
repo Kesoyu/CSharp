@@ -24,5 +24,21 @@ namespace main
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("TEKSCIOR");
+        }
+
+        private void Button_MouseEnter(object sender, MouseEventArgs e)
+        {
+            DateTime dt = DateTime.Now;
+            btn_czas.Content = dt.ToString("T");
+        }
+
+        private void Button_MouseLeave(object sender, MouseEventArgs e)
+        {
+            btn_czas.Content = "napis";
+        }
     }
 }
